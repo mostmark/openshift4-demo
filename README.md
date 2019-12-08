@@ -10,6 +10,6 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic my-topic
 
 Ctrl+c
 
-Quarkus
+Quarkus Demo
 
 curl -O https://raw.githubusercontent.com/mostmark/quarkus1/master/hello-quarkus-1.0-SNAPSHOT-runner
