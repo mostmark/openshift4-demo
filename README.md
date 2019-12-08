@@ -12,4 +12,10 @@ Ctrl+c
 
 Quarkus Demo
 
+echo '-w "\n"' >> ~/.curlrc
+
 curl -O https://raw.githubusercontent.com/mostmark/quarkus1/master/hello-quarkus-1.0-SNAPSHOT-runner
+
+./hello-quarkus-1.0-SNAPSHOT-runner
+
+bash -c "while [ 0 ]; do curl http://localhost:8080/hello;done"
